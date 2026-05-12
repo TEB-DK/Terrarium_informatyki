@@ -1,0 +1,142 @@
+# <img align=top src="https://github.com/user-attachments/assets/5b1be47c-3ab4-48bc-a5d3-4e357481764a" width=48 /> Funkcje i pętle – nowe zadania
+
+Zadania z działów:
+
+- [ ] Funkcje i parametry  
+- [ ] Generatory i pętle  
+
+---
+
+<details>
+  <summary>Zadanie I</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która przyjmuje jeden argument (liczbę) i zwraca jej kwadrat oraz sześcian.
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie II</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która przyjmuje listę liczb i zwraca ich sumę oraz największą wartość z listy używając pętli `for`.
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie III</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która sprawdzi czy podana liczba jest parzysta czy nieparzysta i wyświetli odpowiedni komunikat.
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie IV</summary>
+
+  ### Polecenie
+  ##### Napisz funckje obliczający sumę liczb nieparzystych poczynając od liczby x, a kończąc na liczbie y.
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie V</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która przyjmuje dwa argumenty: początek i koniec zakresu, a następnie zwraca listę liczb podzielnych przez 5.
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie VI</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która przyjmuje tekst i zlicza ile razy występuje w nim litera "a".
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie VII</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która generuje (za pomocą pętli) listę pierwszych 10 liczb naturalnych podniesionych do potęgi 2.
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie VIII</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która przyjmuje dowolną liczbę argumentów (`*args`) i zwraca ich największą wartość.
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie IX</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która przyjmuje dowolną listę liczb i zwraca z niej tylko liczby pierwsze.
+
+
+  Liczba pierwsza to taka liczba naturalna większa od 1, która ma dokładnie dwa dzielniki:
+  - 1
+  - samą siebie
+  
+  ✔️ Przykłady liczb pierwszych:
+  - 2, 3, 5, 7, 11, 13, 17...
+  
+  ❌ Przykłady liczb NIE pierwszych:
+  - 4 (bo dzieli się przez 2)
+  - 6 (2 i 3)
+  - 9 (3 × 3)
+
+  🧠 Warunek liczby pierwszej
+
+  Aby sprawdzić, czy liczba jest pierwsza, stosujemy prostą logikę:
+  - Liczba musi być większa od 1
+  - Sprawdzamy, czy nie ma dzielników innych niż 1 i ona sama
+
+</details>
+
+---
+
+<details>
+  <summary>Zadanie X</summary>
+
+  ### Polecenie
+  ##### Utwórz funkcję, która przyjmuje liczbę i zwraca silnię tej liczby (np. 5! = 120) używając rekurencji.
+
+  💀 Czym jest rekurencja?
+  
+  Rekurencja (rekursja) w Pythonie to technika, w której funkcja wywołuje samą siebie, dzieląc duży problem na mniejsze podproblemy. Każda funkcja rekurencyjna musi posiadać warunek bazowy (stopu), zapobiegający nieskończonej pętli i przepełnieniu pamięci
+
+  Przykład rekurencji czyli wywołania funkcji w samej sobie.
+  ```python
+def odliczanie(n):
+    if n <= 0: # Warunek stopu
+        print("Start!")
+    else:
+        print(n)
+        odliczanie(n - 1) # Wywołanie z mniejszą wartością 
+
+odliczanie(3)
+  ```
+  
+
+</details>
